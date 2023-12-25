@@ -1,0 +1,62 @@
+/* src/components/Step.css */
+div {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 20px;
+  }
+.top-menu{
+    background-color:#000000;
+    color: #ffffff;
+    margin:20px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.top-menu span button{
+    margin: 5px;
+    background-color: #ffffff;
+}
+.Symbol {
+    margin-left: auto; 
+    cursor: pointer;
+    font-size:30px;
+    margin-right: 10px;
+}
+.nested-menu{
+    background-color: green;
+    margin:10px;
+    padding:2px;
+    border-radius: 10px;
+}
+.nested-menu strong{
+    color:#ffffff;
+    margin-left:3%;
+}
+.nested-menu p{
+    color:aliceblue;
+    margin-left:5%;
+}
+.sections {
+    display: flex;
+    justify-content: space-around; /* Adjust the space between icons */
+    align-items: center;
+  }
+  
+  .icon-container {
+    text-align: center;
+  }
+  
+  .icon-label {
+    margin-top: 8px; /* Adjust the space between icon and label */
+    font-size: 12px; /* Adjust the font size as needed */
+    color: white; /* Specify the color of the label */
+  }
+/*****************************************************************************************/
+/*SubStep.js*/
+
